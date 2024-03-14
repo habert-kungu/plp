@@ -1,0 +1,22 @@
+.component {
+  color: var(--bs-gray-800);
+  background-color: var(--bs-gray-100);
+  border: 1px solid var(--bs-gray-200);
+  border-radius: .25rem;
+}
+
+.component-header {
+  color: var(--bs-purple);
+}
+.container {
+        margin-top: 50px;
+    }
+    .align-text-right {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .align-text-right img {
+        width: 500px; /* Adjust the width as needed */
+        height: auto;
+    }
