@@ -1,5 +1,6 @@
+# This program analyses python files and diplays the number of lines hte file has
 import sys
-#this program check the lines of codes your pythion file has
+#this program check the lines of codes your python file has
 def count_lines(filename):
     with open(filename, 'r') as f:
         lines = f.readlines()
@@ -29,3 +30,8 @@ if __name__ == '__main__':
     except FileNotFoundError:
         print(f'{filename}File does not exist')
         sys.exit(1)
+# this is how to run
+# start with your file name 
+# example python file.py example.py
+# ensure  it is a python file
+# ensure it is in the same directory
