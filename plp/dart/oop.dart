@@ -1,4 +1,5 @@
 import 'dart:io';
+interface
 
 // Interface for BankAccount
 abstract class Account {
