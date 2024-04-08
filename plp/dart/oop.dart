@@ -1,6 +1,5 @@
-import 'dart:io';
-interface
 
+import 'dart:io';
 // Interface for BankAccount
 abstract class Account {
   void deposit(double amount);
