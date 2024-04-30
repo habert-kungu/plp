@@ -1,0 +1,5 @@
+
+api = 91988793fe2238082b659cbc9547fd6d
+
+api call
+https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={API key}
