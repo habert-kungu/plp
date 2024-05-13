@@ -1,4 +1,4 @@
-def cuculate_discount(price, discount_percent):
+iddjdef cuculate_discount(price, discount_percent):
    # price = int(input("Enter Original price item: "))
    # discount_percent = int(input("Please Enter the Discount percent: "))
     
