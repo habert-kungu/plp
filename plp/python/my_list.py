@@ -15,7 +15,7 @@ print(my_list)  # Output: [[10, 20, 15, 30, 40, 50, 60, 70]]
 # Sort the list in place
 my_list[0].sort()
 print(my_list)  # Output: [[10, 15, 20, 30, 40, 50, 60, 70]]
-
+hello = my_list[0].index(30)
 
 # Find and print the index of the value 30
 index_30 = my_list[0].index(30)
